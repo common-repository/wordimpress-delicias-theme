@@ -1,0 +1,13 @@
+/*
+ * Simple Info Widget Stylesheet
+ */
+
+.simple-info-widget ul { margin:0; padding:0; display: table; width: 100%;}
+.simple-info-widget ul li { list-style: none; margin:0; display: table-row; width: 100%;}
+.simple-info-widget ul li span {  display: table-cell;   border-bottom: 1px solid rgba(255, 255, 255, 0.34);  padding: 20px 0;}
+.simple-info-widget ul li span + span {  text-align: right; }
+.simple-info-widget ul li p:last-of-type { margin:0; }
+.simple-info-widget ul li:last-child span { border-bottom:none; }
+.simple-info-widget ul li address { padding:0; margin:0; }
+.simple-info-widget .simple-info-phone span { padding-top:0; }
+.top-hat .simple-info-widget { color:#FFF; }

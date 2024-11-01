@@ -1,0 +1,37 @@
+/**
+*  Description: Custom CSS for JS Composer WP Admin
+*  @since: 1.2.5
+*/
+
+[class*="icon-wordimpress"] {
+margin-top: -1px;
+height: 16px;
+width: 16px;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+[class*="wordimpress"].wpb_content_element > .wpb_element_wrapper {
+height: auto;
+background-position: 21px center;
+background-repeat: no-repeat;
+}
+
+.icon-wordimpress-space-icon, .wpb_wordimpress_gap.wpb_content_element > .wpb_element_wrapper {
+    background-image:url('../../img/gap.png');
+}
+.icon-wordimpress-space-neg-icon, .wpb_wordimpress_gap_neg.wpb_content_element > .wpb_element_wrapper {
+    background-image:url('../../img/gap-negative.png');
+}
+.icon-wordimpress-carousel, .wpb_wordimpress_menu_item_carousel.wpb_content_element > .wpb_element_wrapper {
+    background-image:url('../../img/carousel.png');
+}
+.icon-wordimpress-top-img, .wpb_wordimpress_img_cta.wpb_content_element > .wpb_element_wrapper {
+    background-image:url('../../img/cta.png');
+}
+.icon-wordimpress-background, .wpb_wordimpress_bg_txt_overlay.wpb_content_element > .wpb_element_wrapper {
+    background-image:url('../../img/background.png');
+}
+.icon-wordimpress-shortcode, .wpb_custom-vc-shortcode.wpb_content_element > .wpb_element_wrapper {
+    background-image:url('../../img/shortcode.png');
+}
